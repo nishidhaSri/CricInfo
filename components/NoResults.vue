@@ -70,7 +70,7 @@ export default {
   margin-bottom: 10px;
 }
 
-.img-group div:last-child {
+.img-group > div:nth-child(2) {
   font-size: 20px;
   margin-bottom: 10px;
 }
