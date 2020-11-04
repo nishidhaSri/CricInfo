@@ -13,7 +13,7 @@ There are two types of views in this application
 
 <b>Page load time</b>
 
-To calculate the page load time, I have used several 3rd party applications. Initially I had an average load time of aabout <b>2.36sec.</b> Later I looked into methods to decrease the load time and hence I obeserved that the complete Antd plugin was imported into the project. Then I imported specifically only those components which are used in this project, hence decreased the load time. Their results obtained using refactored code is given below.
+To calculate the page load time, I have used several 3rd party applications. Initially I had an average load time of about <b>2.36sec.</b> Later I looked into methods to decrease the load time and hence I obeserved that the complete Antd plugin was imported into the project. Then I imported specifically only those components which are used in this project, hence decreased the load time. The results obtained using refactored code is given below.
 
 
 | Website | Region | Requests | Load time |
