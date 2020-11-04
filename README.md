@@ -15,3 +15,15 @@ There are two types of views in this application
 
 To calculate the page load time, I have used several 3rd party applications. Their results are listed below.
 
+
+| Website | Region | Requests | Load time |
+| ------- | ------ | -------- | --------- | 
+| Pingdom | Asia-Japan-Tokyo | 11 | 2.13s |
+| Pingdom | Europe-UK-London | 11 | 1.31s |
+| Dot-Com tools | London | 7 | 1.5s |
+| Dot-Com tools | Montreal | 7 | 2.1s |
+| Dot-Com tools | Mumbai | 7 | 4.4s |
+| GTmetrix | Vancouver, Canada | 11 | 2.7s |
+
+
+On an average, the page load time of this application is <b>2.36</b>
