@@ -47,7 +47,7 @@
               '150%': '#f4ca1b',
             }"
             status="active"
-            :percent="team.home_win_percentage"
+            :percent="parseInt(team.home_win_percentage)"
             :width="80"
           />
           <div class="sub-heading">Home wins</div>

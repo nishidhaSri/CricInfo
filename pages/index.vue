@@ -102,6 +102,7 @@
 
 <script>
 import data1 from '../components/players.json'
+
 const bowlOptions = [
   'Right-Arm bowler',
   'Left-Arm bowler',
@@ -129,6 +130,7 @@ export default {
       ],
     }
   },
+
   data() {
     return {
       data1,

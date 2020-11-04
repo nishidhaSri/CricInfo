@@ -57,7 +57,7 @@
               '150%': '#f4ca1b',
             }"
             status="active"
-            :percent="player.strikerate"
+            :percent="parseInt(player.strikerate)"
             :width="80"
           />
           <div class="sub-heading">Strike Rate</div>
@@ -90,7 +90,6 @@ export default {
 <style>
 .card-image {
   width: 50%;
-  /* float: right; */
   margin: auto 0;
 }
 
