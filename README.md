@@ -13,17 +13,17 @@ There are two types of views in this application
 
 <b>Page load time</b>
 
-To calculate the page load time, I have used several 3rd party applications. Their results are listed below.
+To calculate the page load time, I have used several 3rd party applications. Initially I had an average load time of aabout <b>2.36sec.</b> Later I looked into methods to decrease the load time and hence I obeserved that the complete Antd plugin was imported into the project. Then I imported specifically only those components which are used in this project, hence decreased the load time. Their results obtained using refactored code is given below.
 
 
 | Website | Region | Requests | Load time |
 | ------- | ------ | -------- | --------- | 
-| Pingdom | Asia-Japan-Tokyo | 11 | 2.13s |
+| Pingdom | Asia-Japan-Tokyo | 11 | 1.79s |
 | Pingdom | Europe-UK-London | 11 | 1.31s |
-| Dot-Com tools | London | 7 | 1.5s |
-| Dot-Com tools | Montreal | 7 | 2.1s |
-| Dot-Com tools | Mumbai | 7 | 4.4s |
+| DotCom tools | London | 7 | 1.2s |
+| DotCom tools | San Francisco | 9 | 2s |
+| DotCom tools | Shanghai | 7 | 4.5s |
 | GTmetrix | Vancouver, Canada | 11 | 2.7s |
 
 
-On an average, the page load time of this application is <b>2.36</b>
+On an average, the page load time of this application now is <b>2.25sec.</b>
